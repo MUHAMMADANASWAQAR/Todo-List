@@ -1,0 +1,37 @@
+body{
+font-family:Arial;
+
+}
+#main{
+    text-align :center;
+}
+.grid{
+    display :grid;
+    grid-template-columns:200px 150px 100px ;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+
+}
+#input1,#date{
+    font-size: 15px; 
+    padding: 10px 5px;
+}
+.btn-del {
+    background-color:rgb(87, 4, 4) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding :15px;
+    cursor: pointer;
+}
+.btn-add{
+    background-color:rgb(5, 119, 19) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding :15px;
+    cursor: pointer;
+
+}
